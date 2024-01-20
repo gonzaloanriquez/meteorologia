@@ -1,0 +1,108 @@
+body{
+margin: 0;
+padding: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+section{
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-seccion1,
+.footer-seccion2,
+.footer-seccion3 {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.contenido-central {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.footer_1 ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.footer_1 li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer_1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Añade estas reglas al final de tu archivo styles.css */
+
+.header_buscador img {
+    width: 50%;
+    height: auto; /* Para mantener la proporción original de la imagen */
+    display: block; /* Para corregir cualquier espacio adicional causado por la propiedad display: inline */
+    margin: 0 auto; /* Centrar la imagen dentro de su contenedor */
+}
+
+/* Añade estas reglas al final de tu archivo styles.css */
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Añade estas reglas al final de tu archivo styles.css */
+
+.publicidad {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 40px;
+}
+
+.publicidad img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho de su contenedor */
+    height: auto;
+}
